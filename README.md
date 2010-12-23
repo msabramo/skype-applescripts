@@ -10,7 +10,7 @@ resort to scripting.
 
 SkypeDialer.applescript provides core services that can be used by other
 AppleScripts, including SkypeDialerGUI. You should open SkypeDialer.applescript
-with AppleScript Script Editor and then save it as a stay-open application
+with AppleScript Editor and then save it as a stay-open application
 (File | Save As... and then for the File Format, select "Application" and in
 Options, make sure that "Stay Open" is checked). I saved mine in /Applications
 so I have /Applications/Skype Dialer.app.
