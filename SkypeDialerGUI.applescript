@@ -1,5 +1,13 @@
-property conference_phone_number : "+1.888.371.8922"
-property conference_code : "31066047#"
+(*
+ SkypeDialerGUI.applescript
+
+ This AppleScript utilizes the services of SkypeDialer.applescript, which
+ should be saved as a stay-open application (/Applications seems like a good
+ place). This adds a very simple GUI.
+ *)
+
+property conference_phone_number : "+1.888.555.1212"
+property conference_code : "12345678#"
 
 on run {}
 	display dialog Â

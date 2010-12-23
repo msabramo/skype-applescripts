@@ -1,7 +1,13 @@
+(*
+ SkypeDialer.applescript
+
+ This AppleScript is meant to be saved as a stay-open faceless application
+ (/Applications seems like a good place) and then its services can be used by
+ other AppleScripts and workflows.  
+ *)
+
 property script_name : "SkypeDialer"
 property delay_after_launching_skype : 5 (* seconds to wait for Skype to launch and log user in *)
-property conference_phone_number : "+1.888.371.8922"
-property conference_code : "31066047#"
 property connect_wait : 15 (* seconds to wait before sending additional tones *)
 property dtmf_wait : 0.5 (* seconds to wait between sending DTMF tones *)
 property growl_enabled : true
