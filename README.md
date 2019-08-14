@@ -8,6 +8,13 @@ particular conference. Surprisingly, Skype doesn't let you do this in a simple
 way by adding something like ",,12345678#" to the phone number, so I had to
 resort to scripting.
 
+These AppleScripts do not work with Skype 8. They might work on Skype 7.
+
+```
+brew cask uninstall skype
+brew cask install skype7
+```
+
 SkypeDialer.applescript provides core services that can be used by other
 AppleScripts, including SkypeDialerGUI. You should open SkypeDialer.applescript
 with AppleScript Editor and then save it as a stay-open application
